@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test_ipe
+Bundle-SymbolicName: org.eclipse.om2m.sample.test_ipe
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.om2m.sample.test_ipe.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Automatic-Module-Name: org.eclipse.om2m.sample.test.ipe
+Import-Package: org.osgi.framework
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.apache.commons.logging,
+ org.eclipse.om2m.core.service,
+ org.eclipse.om2m.interworking.service,
+ org.eclipse.osgi,
+ org.eclipse.om2m.commons
